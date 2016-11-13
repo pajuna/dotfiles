@@ -1,8 +1,11 @@
+# Ubuntu LTS (Xenial Xerus) dotfiles
 
+This repo is an example of keeping your Ubuntu LTS (Xenial Xerus) dotfiles in a git repo.  
 
+* clone this repo to ~/.dotfiles
+* symlink individual files into ~
 
-
-
+There is a Pajuna [role](https://github.com/pajuna/Ubuntu-LTS/tree/master/dotfiles) that takes care of this for you.
 
 <table>
   <tr>
