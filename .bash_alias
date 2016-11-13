@@ -1,0 +1,4 @@
+alias ll="ls -lAhF --group-directories-first --color"
+alias ls="ls --color"
+alias l="ls -lh"
+alias pajuna="ansible-playbook -v ~/.ansible/playbook.yml -K"
