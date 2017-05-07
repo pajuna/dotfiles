@@ -1,0 +1,17 @@
+#[user]
+#  name = Jon Doe
+#  email = jon@example.com
+[color]
+  ui = true
+
+[alias]
+  lg = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+  lgf = "log --name-only"
+  st = "status"
+  incoming = "!git remote update -p; git log ..@{u}"
+  in = "!git remote update -p; git log ..@{u}"
+  outgoing = "log @{u}.."
+  out = "log @{u}.."
+  co = "commit"
+  com = "commit -m"
+  l1 = "log --pretty=oneline --abbrev-commit"
